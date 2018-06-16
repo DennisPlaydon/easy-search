@@ -28,3 +28,5 @@ if website != 0:
         webbrowser.open("https://weather.com")
     elif website == 4:
         webbrowser.open('https://www.google.com/maps/place/' + address)
+else:
+    print("Valid commands are: \ngo\nyt\nweather\nmap")
