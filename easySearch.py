@@ -37,5 +37,5 @@ if website != 0:
         webbrowser.open("http://fortune.com/")
         webbrowser.open("https://www.wsj.com/asia")
 else:
-    print("Valid commands are: \nsearch go\nsearch yt\nsearch weather\n search map")
+    print("Valid commands are: \nsearch go\nsearch yt\nsearch weather\n search map\n search news")
         
