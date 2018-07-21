@@ -11,7 +11,8 @@ def type(x):
         'go': 1,
         'yt': 2,
         'weather': 3,
-        'map': 4
+        'map': 4,
+        'news': 5
     }.get(x, 0)
 
 if len(sys.argv) > 1:
@@ -28,5 +29,13 @@ if website != 0:
         webbrowser.open("https://weather.com")
     elif website == 4:
         webbrowser.open('https://www.google.com/maps/place/' + address)
+        webbrowser.open("https://weather.com")
+    elif website == 5:
+        webbrowser.open("https://www.reuters.com/")
+        webbrowser.open("https://www.bloomberg.com/asia")
+        webbrowser.open("https://www.forbes.com")
+        webbrowser.open("http://fortune.com/")
+        webbrowser.open("https://www.wsj.com/asia")
 else:
-    print("Valid commands are: \ngo\nyt\nweather\nmap")
+    print("Valid commands are: \nsearch go\nsearch yt\nsearch weather\n search map")
+        
