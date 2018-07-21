@@ -29,7 +29,6 @@ if website != 0:
         webbrowser.open("https://weather.com")
     elif website == 4:
         webbrowser.open('https://www.google.com/maps/place/' + address)
-        webbrowser.open("https://weather.com")
     elif website == 5:
         webbrowser.open("https://www.reuters.com/")
         webbrowser.open("https://www.bloomberg.com/asia")
