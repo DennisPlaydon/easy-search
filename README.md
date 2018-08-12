@@ -17,13 +17,21 @@ Replace this path with the path of the easySearch.py file.
 @py.exe pathWhereFileIsInstalled\easySearch.py %*
 @pause
 ```
-To execute the program open the command prompt and type one of the four commands
+To execute the program open the command prompt and type one of the five commands or type search to show all commands 
+*You will need to cd into the file where the batch file is store in order to run from the cmd prompt*
 ```
 search go google search
 search yt youtube search
 search weather
 search map address
 ```
+
+##Debugging possible issues
+Sometimes pyperclip will not be installed. Type the command below to install it
+```
+pip intall pyperclip
+```
+
 ## Customising
 You can add your own functionality by editing parts of the python dictionary
 
