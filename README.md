@@ -26,7 +26,7 @@ search weather
 search map address
 ```
 
-##Debugging possible issues
+## Debugging possible issues
 Sometimes pyperclip will not be installed. Type the command below to install it
 ```
 pip intall pyperclip
