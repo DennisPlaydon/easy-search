@@ -1,4 +1,4 @@
-## easySearch
+## easy-earch
 Easy Search is a simple script to make everyday searching easier. It allows you to use the command line to search google, youtube, maps and find the weather.
 
 ## Gettings started
