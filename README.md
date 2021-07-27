@@ -17,6 +17,11 @@ Replace this path with the path of the easySearch.py file.
 @py.exe pathWhereFileIsInstalled\easySearch.py %*
 @pause
 ```
+If you want to be able to run the CLI tool from anywhere - Add the path to the bat file into PATH.
+e.g.
+```
+C:\MyPythonScripts\
+```
 To execute the program open the command prompt and type one of the five commands or type search to show all commands 
 *You will need to cd into the file where the batch file is store in order to run from the cmd prompt*
 ```

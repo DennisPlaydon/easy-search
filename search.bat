@@ -1,2 +1,1 @@
-@py.exe C:\MyPythonScripts\easySearch.py %*
-@pause
+@py.exe C:\dev\easy-search\easySearch.py %*
